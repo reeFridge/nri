@@ -1,0 +1,23 @@
+.{
+    .name = "zrhi",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .vulkan_headers = .{
+            .url = "https://github.com/KhronosGroup/Vulkan-Headers/archive/v1.3.283.tar.gz",
+            .hash = "1220a7e73d72a0d56bc2a65f9d8999a7c019e42260a0744c408d1cded111bc205e10",
+        },
+        .nri = .{
+            .url = "https://github.com/NVIDIAGameWorks/NRI/archive/refs/tags/v1.162.tar.gz",
+            .hash = "1220a41845be35a6e5c80d38afa58f68a6f9d43902af7f3e8456c719061845909265",
+        },
+        .vma = .{
+            .url = "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/archive/refs/tags/v3.2.0.tar.gz",
+            .hash = "122089e2639d2d7e9b5995cdbdcd52bd087396b1f2014a7866fc226660942f6fc01e",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
