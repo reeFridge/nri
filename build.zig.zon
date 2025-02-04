@@ -1,6 +1,6 @@
 .{
-    .name = "zrhi",
-    .version = "0.0.0",
+    .name = "nri",
+    .version = "1.162.0",
     .minimum_zig_version = "0.13.0",
     .dependencies = .{
         .vulkan_headers = .{
